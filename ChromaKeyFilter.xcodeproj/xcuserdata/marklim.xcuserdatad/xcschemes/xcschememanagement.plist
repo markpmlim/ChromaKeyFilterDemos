@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ChromaKeyFilter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>GSChromaKeyFilter_Metal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>GreenScreenFilter.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EE3E0C002B7B24330045E1F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE3E0C162B7B245A0045E1F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE7664332C43326F005EADC2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEBCBA802B7D82E600397F0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EECFA7CB2C44BF700021A43F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

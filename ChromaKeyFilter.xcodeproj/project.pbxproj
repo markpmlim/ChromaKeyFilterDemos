@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1AFEC82C44D41E00260883 /* GSChromaKeyFilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = EE1AFEC72C44D41E00260883 /* GSChromaKeyFilter.metal */; };
+		EE1AFECA2C44D4AB00260883 /* GSChromaKeyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1AFEC92C44D4AB00260883 /* GSChromaKeyFilter.swift */; };
+		EE3E0C1A2B7B245A0045E1F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0C192B7B245A0045E1F2 /* AppDelegate.swift */; };
+		EE3E0C1C2B7B245A0045E1F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3E0C1B2B7B245A0045E1F2 /* ViewController.swift */; };
+		EE3E0C1E2B7B245A0045E1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3E0C1D2B7B245A0045E1F2 /* Assets.xcassets */; };
+		EE3E0C212B7B245A0045E1F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3E0C1F2B7B245A0045E1F2 /* Main.storyboard */; };
+		EE5D23D92C437ACA00EDEC0F /* BackGround.tga in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA62B7EFF1B00217D32 /* BackGround.tga */; };
+		EE5D23DA2C437ACD00EDEC0F /* JetFighter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA12B7EFB7F00217D32 /* JetFighter.png */; };
+		EE6A0CA32B7EFBBF00217D32 /* JetFighter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA12B7EFB7F00217D32 /* JetFighter.png */; };
+		EE6A0CA72B7EFF1B00217D32 /* BackGround.tga in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA62B7EFF1B00217D32 /* BackGround.tga */; };
+		EE7664372C43326F005EADC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7664362C43326F005EADC2 /* AppDelegate.swift */; };
+		EE7664392C43326F005EADC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7664382C43326F005EADC2 /* ViewController.swift */; };
+		EE76643B2C43326F005EADC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE76643A2C43326F005EADC2 /* Assets.xcassets */; };
+		EE76643E2C43326F005EADC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE76643C2C43326F005EADC2 /* Main.storyboard */; };
+		EE7664442C43342B005EADC2 /* GSChromaKeyFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EE7664432C43342B005EADC2 /* GSChromaKeyFilter.cikernel */; };
+		EE7664462C43347B005EADC2 /* GSChromaKeyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7664452C43347B005EADC2 /* GSChromaKeyFilter.swift */; };
+		EEBCBA932B7D873500397F0A /* ChromaKeyFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBCBA922B7D873500397F0A /* ChromaKeyFilter.swift */; };
+		EECFA7CF2C44BF710021A43F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFA7CE2C44BF710021A43F /* AppDelegate.swift */; };
+		EECFA7D12C44BF710021A43F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECFA7D02C44BF710021A43F /* ViewController.swift */; };
+		EECFA7D32C44BF730021A43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECFA7D22C44BF730021A43F /* Assets.xcassets */; };
+		EECFA7D62C44BF730021A43F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECFA7D42C44BF730021A43F /* Main.storyboard */; };
+		EECFA7DC2C44BF860021A43F /* BackGround.tga in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA62B7EFF1B00217D32 /* BackGround.tga */; };
+		EECFA7DD2C44BF8A0021A43F /* JetFighter.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6A0CA12B7EFB7F00217D32 /* JetFighter.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE1AFEC72C44D41E00260883 /* GSChromaKeyFilter.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = GSChromaKeyFilter.metal; sourceTree = "<group>"; };
+		EE1AFEC92C44D4AB00260883 /* GSChromaKeyFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSChromaKeyFilter.swift; sourceTree = "<group>"; };
+		EE3E0C172B7B245A0045E1F2 /* ChromaKeyFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaKeyFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3E0C192B7B245A0045E1F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3E0C1B2B7B245A0045E1F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3E0C1D2B7B245A0045E1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3E0C202B7B245A0045E1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3E0C222B7B245A0045E1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5F2BA02C2EE4180041B13B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
+		EE6A0CA12B7EFB7F00217D32 /* JetFighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JetFighter.png; path = Images/JetFighter.png; sourceTree = "<group>"; };
+		EE6A0CA62B7EFF1B00217D32 /* BackGround.tga */ = {isa = PBXFileReference; lastKnownFileType = file; name = BackGround.tga; path = Images/BackGround.tga; sourceTree = "<group>"; };
+		EE7664342C43326F005EADC2 /* GreenScreenFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenScreenFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7664362C43326F005EADC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7664382C43326F005EADC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE76643A2C43326F005EADC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE76643D2C43326F005EADC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE76643F2C43326F005EADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7664432C43342B005EADC2 /* GSChromaKeyFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GSChromaKeyFilter.cikernel; sourceTree = "<group>"; };
+		EE7664452C43347B005EADC2 /* GSChromaKeyFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSChromaKeyFilter.swift; sourceTree = "<group>"; };
+		EEBCBA922B7D873500397F0A /* ChromaKeyFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromaKeyFilter.swift; sourceTree = "<group>"; };
+		EECFA7CC2C44BF700021A43F /* GSChromaKeyFilter_Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSChromaKeyFilter_Metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECFA7CE2C44BF710021A43F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECFA7D02C44BF710021A43F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EECFA7D22C44BF730021A43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EECFA7D52C44BF730021A43F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECFA7D72C44BF730021A43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECFA7D82C44BF730021A43F /* GSChromaKeyFilter_Metal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GSChromaKeyFilter_Metal.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3E0C142B7B245A0045E1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7664312C43326F005EADC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECFA7C92C44BF700021A43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3E0BF82B7B24330045E1F2 = {
+			isa = PBXGroup;
+			children = (
+				EE5F2BA02C2EE4180041B13B /* Readme.md */,
+				EE5B7DE32B7DC6DF0009A417 /* Images */,
+				EE3E0C182B7B245A0045E1F2 /* ChromaKeyFilter */,
+				EE7664352C43326F005EADC2 /* GreenScreenFilter */,
+				EECFA7CD2C44BF710021A43F /* GSChromaKeyFilter_Metal */,
+				EE3E0C022B7B24330045E1F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3E0C022B7B24330045E1F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E0C172B7B245A0045E1F2 /* ChromaKeyFilter.app */,
+				EE7664342C43326F005EADC2 /* GreenScreenFilter.app */,
+				EECFA7CC2C44BF700021A43F /* GSChromaKeyFilter_Metal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3E0C182B7B245A0045E1F2 /* ChromaKeyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				EE3E0C192B7B245A0045E1F2 /* AppDelegate.swift */,
+				EEBCBA922B7D873500397F0A /* ChromaKeyFilter.swift */,
+				EE3E0C1B2B7B245A0045E1F2 /* ViewController.swift */,
+				EE3E0C1D2B7B245A0045E1F2 /* Assets.xcassets */,
+				EE3E0C1F2B7B245A0045E1F2 /* Main.storyboard */,
+				EE3E0C222B7B245A0045E1F2 /* Info.plist */,
+			);
+			path = ChromaKeyFilter;
+			sourceTree = "<group>";
+		};
+		EE5B7DE32B7DC6DF0009A417 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A0CA62B7EFF1B00217D32 /* BackGround.tga */,
+				EE6A0CA12B7EFB7F00217D32 /* JetFighter.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EE7664352C43326F005EADC2 /* GreenScreenFilter */ = {
+			isa = PBXGroup;
+			children = (
+				EE7664362C43326F005EADC2 /* AppDelegate.swift */,
+				EE7664432C43342B005EADC2 /* GSChromaKeyFilter.cikernel */,
+				EE7664452C43347B005EADC2 /* GSChromaKeyFilter.swift */,
+				EE7664382C43326F005EADC2 /* ViewController.swift */,
+				EE76643A2C43326F005EADC2 /* Assets.xcassets */,
+				EE76643C2C43326F005EADC2 /* Main.storyboard */,
+				EE76643F2C43326F005EADC2 /* Info.plist */,
+			);
+			path = GreenScreenFilter;
+			sourceTree = "<group>";
+		};
+		EECFA7CD2C44BF710021A43F /* GSChromaKeyFilter_Metal */ = {
+			isa = PBXGroup;
+			children = (
+				EECFA7CE2C44BF710021A43F /* AppDelegate.swift */,
+				EE1AFEC92C44D4AB00260883 /* GSChromaKeyFilter.swift */,
+				EE1AFEC72C44D41E00260883 /* GSChromaKeyFilter.metal */,
+				EECFA7D02C44BF710021A43F /* ViewController.swift */,
+				EECFA7D22C44BF730021A43F /* Assets.xcassets */,
+				EECFA7D42C44BF730021A43F /* Main.storyboard */,
+				EECFA7D72C44BF730021A43F /* Info.plist */,
+				EECFA7D82C44BF730021A43F /* GSChromaKeyFilter_Metal.entitlements */,
+			);
+			path = GSChromaKeyFilter_Metal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3E0C162B7B245A0045E1F2 /* ChromaKeyFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3E0C232B7B245A0045E1F2 /* Build configuration list for PBXNativeTarget "ChromaKeyFilter" */;
+			buildPhases = (
+				EE3E0C132B7B245A0045E1F2 /* Sources */,
+				EE3E0C142B7B245A0045E1F2 /* Frameworks */,
+				EE3E0C152B7B245A0045E1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaKeyFilter;
+			productName = ChromaKeyFilter;
+			productReference = EE3E0C172B7B245A0045E1F2 /* ChromaKeyFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE7664332C43326F005EADC2 /* GreenScreenFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7664422C43326F005EADC2 /* Build configuration list for PBXNativeTarget "GreenScreenFilter" */;
+			buildPhases = (
+				EE7664302C43326F005EADC2 /* Sources */,
+				EE7664312C43326F005EADC2 /* Frameworks */,
+				EE7664322C43326F005EADC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenScreenFilter;
+			productName = GreenScreenFilter;
+			productReference = EE7664342C43326F005EADC2 /* GreenScreenFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECFA7CB2C44BF700021A43F /* GSChromaKeyFilter_Metal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECFA7D92C44BF730021A43F /* Build configuration list for PBXNativeTarget "GSChromaKeyFilter_Metal" */;
+			buildPhases = (
+				EECFA7C82C44BF700021A43F /* Sources */,
+				EECFA7C92C44BF700021A43F /* Frameworks */,
+				EECFA7CA2C44BF700021A43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSChromaKeyFilter_Metal;
+			productName = ChromaKeyFilter_Metal;
+			productReference = EECFA7CC2C44BF700021A43F /* GSChromaKeyFilter_Metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3E0BF92B7B24330045E1F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Incremental Innovations";
+				TargetAttributes = {
+					EE3E0C162B7B245A0045E1F2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE7664332C43326F005EADC2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EECFA7CB2C44BF700021A43F = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE3E0BFC2B7B24330045E1F2 /* Build configuration list for PBXProject "ChromaKeyFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3E0BF82B7B24330045E1F2;
+			productRefGroup = EE3E0C022B7B24330045E1F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3E0C162B7B245A0045E1F2 /* ChromaKeyFilter */,
+				EE7664332C43326F005EADC2 /* GreenScreenFilter */,
+				EECFA7CB2C44BF700021A43F /* GSChromaKeyFilter_Metal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3E0C152B7B245A0045E1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6A0CA72B7EFF1B00217D32 /* BackGround.tga in Resources */,
+				EE3E0C1E2B7B245A0045E1F2 /* Assets.xcassets in Resources */,
+				EE3E0C212B7B245A0045E1F2 /* Main.storyboard in Resources */,
+				EE6A0CA32B7EFBBF00217D32 /* JetFighter.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7664322C43326F005EADC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE76643B2C43326F005EADC2 /* Assets.xcassets in Resources */,
+				EE76643E2C43326F005EADC2 /* Main.storyboard in Resources */,
+				EE7664442C43342B005EADC2 /* GSChromaKeyFilter.cikernel in Resources */,
+				EE5D23DA2C437ACD00EDEC0F /* JetFighter.png in Resources */,
+				EE5D23D92C437ACA00EDEC0F /* BackGround.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECFA7CA2C44BF700021A43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECFA7D32C44BF730021A43F /* Assets.xcassets in Resources */,
+				EECFA7DD2C44BF8A0021A43F /* JetFighter.png in Resources */,
+				EECFA7DC2C44BF860021A43F /* BackGround.tga in Resources */,
+				EECFA7D62C44BF730021A43F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3E0C132B7B245A0045E1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBCBA932B7D873500397F0A /* ChromaKeyFilter.swift in Sources */,
+				EE3E0C1A2B7B245A0045E1F2 /* AppDelegate.swift in Sources */,
+				EE3E0C1C2B7B245A0045E1F2 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE7664302C43326F005EADC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7664462C43347B005EADC2 /* GSChromaKeyFilter.swift in Sources */,
+				EE7664392C43326F005EADC2 /* ViewController.swift in Sources */,
+				EE7664372C43326F005EADC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECFA7C82C44BF700021A43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1AFEC82C44D41E00260883 /* GSChromaKeyFilter.metal in Sources */,
+				EE1AFECA2C44D4AB00260883 /* GSChromaKeyFilter.swift in Sources */,
+				EECFA7D12C44BF710021A43F /* ViewController.swift in Sources */,
+				EECFA7CF2C44BF710021A43F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE3E0C1F2B7B245A0045E1F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3E0C202B7B245A0045E1F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE76643C2C43326F005EADC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE76643D2C43326F005EADC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECFA7D42C44BF730021A43F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECFA7D52C44BF730021A43F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3E0C0E2B7B24340045E1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTLLINKER_FLAGS = "-cikernel";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE3E0C0F2B7B24340045E1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTLLINKER_FLAGS = "-cikernel";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EE3E0C242B7B245A0045E1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaKeyFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.ChromaKeyFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE3E0C252B7B245A0045E1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChromaKeyFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.ChromaKeyFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE7664402C43326F005EADC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GreenScreenFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.GreenScreenFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE7664412C43326F005EADC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GreenScreenFilter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.incrementalinnovations.GreenScreenFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EECFA7DA2C44BF730021A43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = GSChromaKeyFilter_Metal/GSChromaKeyFilter_Metal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GSChromaKeyFilter_Metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.GSChromaKeyFilter-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		EECFA7DB2C44BF730021A43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = GSChromaKeyFilter_Metal/GSChromaKeyFilter_Metal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = GSChromaKeyFilter_Metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				PRODUCT_BUNDLE_IDENTIFIER = "Incremental-Innovation.GSChromaKeyFilter-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3E0BFC2B7B24330045E1F2 /* Build configuration list for PBXProject "ChromaKeyFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3E0C0E2B7B24340045E1F2 /* Debug */,
+				EE3E0C0F2B7B24340045E1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3E0C232B7B245A0045E1F2 /* Build configuration list for PBXNativeTarget "ChromaKeyFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3E0C242B7B245A0045E1F2 /* Debug */,
+				EE3E0C252B7B245A0045E1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7664422C43326F005EADC2 /* Build configuration list for PBXNativeTarget "GreenScreenFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7664402C43326F005EADC2 /* Debug */,
+				EE7664412C43326F005EADC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECFA7D92C44BF730021A43F /* Build configuration list for PBXNativeTarget "GSChromaKeyFilter_Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECFA7DA2C44BF730021A43F /* Debug */,
+				EECFA7DB2C44BF730021A43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3E0BF92B7B24330045E1F2 /* Project object */;
+}

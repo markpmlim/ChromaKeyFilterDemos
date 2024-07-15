@@ -1,0 +1,31 @@
+/*
+ The kernel code is from Apple's AVGreenScreenPlayer demo
+*/
+vec3 normalizeColor(vec3 color, float meanr)
+{
+	return (color * vec3(0.75 + meanr, 1.0, 1.0 - meanr));
+}
+
+kernel vec4 chromaKey(sampler inputImage,
+                      sampler inputBackgroundImage,
+                      vec4 inputColor,
+                      float inputThreshold)
+{
+	vec4 outputColor;
+
+	vec4 foregroundColor = sample(inputImage,
+                                  samplerCoord(inputImage));
+	vec4 backgroundColor = sample(inputBackgroundImage,
+                                  samplerCoord(inputBackgroundImage));
+
+	float meanr = ((foregroundColor.r + inputColor.r) / 8.0);
+
+    // Modified: the keyword `distance` is a function.
+    // We should not declare `distance` as a float variable.
+    float dist = distance(normalizeColor(foregroundColor.rgb, meanr),
+                          normalizeColor(inputColor.rgb, meanr));
+
+	outputColor = (dist > inputThreshold ? foregroundColor : backgroundColor);
+
+	return outputColor;
+}
